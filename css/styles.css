@@ -1,0 +1,64 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    color:var(--primary-text-color);
+    background-color: #ffffff;
+}
+:visited {
+    list-style: none;
+}
+header {
+    color: var(--primary-text-color);
+}
+header > nav {
+    color: var(--title-text-color);
+}
+header > nav :hover, 
+header > nav :focus {
+    color: var(--accent-color);
+}
+.contacts {
+    color: var(--primary-text-color);
+}
+.contacts :hover,
+.contacts :focus {
+    color: var(--accent-color);
+}
+.main-page {
+background-color: #2F303A;
+}
+.main-page > h1 {
+    color: #FFFFFF;
+}
+.main-page > button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.our-activities-title {
+    color: var(--title-text-color);
+}
+.our-team-title {
+    color: var(--title-text-color);
+}
+.name {
+    color: var(--title-text-color);
+}
+footer {
+    background-color: #2F303A;
+}
+.adress {
+    color: #ffffff;
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+footer {
+    color: var(--primary-text-color);
+}
