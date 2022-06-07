@@ -7,12 +7,16 @@
 body {
     color:var(--primary-text-color);
     background-color: #ffffff;
-}
-:visited {
-    list-style: none;
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 header {
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 header > nav {
     color: var(--title-text-color);
@@ -33,31 +37,85 @@ background-color: #2F303A;
 }
 .main-page > h1 {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .main-page > button {
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .our-activities-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+        
 }
 .our-team-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 .name {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 footer {
     background-color: #2F303A;
 }
 .adress {
     color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71x;
+    letter-spacing: 0.03em;
 }
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer :hover, 
+.contacts-footer :focus {
+color: var(--accent-color);
 }
 footer {
     color: var(--primary-text-color);
@@ -66,8 +124,13 @@ footer {
 /* css для портфолио */
 
 .filter {
+    cursor: pointer;
     background: #F5F4FA;
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
 }
 .filter :hover {
     background: var(--accent-color);
@@ -75,4 +138,13 @@ footer {
 }
 .portfolio-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
