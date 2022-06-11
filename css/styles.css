@@ -40,6 +40,9 @@ header {
 .contacts-link {
     color: var(--primary-text-color);
 }
+/* .current {
+    color: var(--accent-color);} */
+.current,
 .contacts :hover,
 .contacts :focus {
     color: var(--accent-color);
